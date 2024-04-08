@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom"
-import Wrapper from "../assets/wrappers/Navbar"
+import { NavLink } from 'react-router-dom'
+import Wrapper from '../assets/wrappers/Navbar'
 
 const Navbar = () => {
   return (
@@ -14,7 +14,7 @@ const Navbar = () => {
             About
           </NavLink>
           <NavLink to="/newsletter" className="nav-link">
-           Newsletter
+            Newsletter
           </NavLink>
         </div>
       </div>
